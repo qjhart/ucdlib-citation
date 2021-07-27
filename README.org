@@ -1,0 +1,23 @@
+* Citations
+
+Develop a web component for creating citations.  Allow for a single engine to
+
+** Citation
+
+The main component of the set of tags is the citation tag.
+
+
+<citation-list csl="MLA" citation-copy=true csl-list="MLA ADA">
+  <citation data={title:"quinnisgreat"} />
+  <citation title="quinn is great"/>
+</citation-list>
+
+** ucdlib-citation-engine
+
+The engine allows for a single CSL engine to update multiple citations. The
+~ucdlib-citation-engine~ allows the user to specify the particular CSL styling
+that they'd like to use.
+
+** ucdlib-citation-list
+
+Thi
